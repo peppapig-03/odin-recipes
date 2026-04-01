@@ -1,0 +1,24 @@
+body{
+    background-color: #eee;
+    font-size:40px;
+}
+.card{
+    width:700px;
+    height:400px;
+    margin:50px auto;
+    border-color:black;
+    background:#fff;
+    padding:10px;
+}
+.title{
+    background-color:#e3f4ff;
+    margin:20px;
+    text-align: center;
+}
+.listings{
+    background-color:#e3f4ff;
+    margin:20px 0px;
+}
+ol{list-style-position: inside;
+    padding:0px 20px;
+}

@@ -6,3 +6,4 @@ Added recipe for lasagna
 Added ingredients and description for lasagna, with formatting
 Added steak page
 Added spaghetti page and home page buttons in steak page
+Started CSS on index.html
