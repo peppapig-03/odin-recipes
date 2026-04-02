@@ -1,14 +1,23 @@
 body{
     background-color: #eee;
-    font-size:40px;
 }
-.card{
-    width:700px;
-    height:400px;
+.card, .subpage{
+    height:auto;
     margin:50px auto;
     border-color:black;
     background:#fff;
     padding:10px;
+}
+.card{
+    width:700px;
+    font-size:40px;
+}
+.card .listings{
+    margin:20px 0px;
+}
+.subpage{
+    width:1400px;
+    font-size:30px;
 }
 .title{
     background-color:#e3f4ff;
@@ -17,8 +26,29 @@ body{
 }
 .listings{
     background-color:#e3f4ff;
-    margin:20px 0px;
+    margin:20px 10px;
 }
 ol{list-style-position: inside;
     padding:0px 20px;
+}
+
+ol .ingredients{
+    list-style-position: inside;
+}
+.subpage img{
+    width:60%;
+    margin: auto;
+    display:block;
+}
+
+.subpage .listings{
+    padding:5px;
+}
+.subpage h2,h4{
+    margin-top:0px;
+    margin-bottom:20px;
+}
+.subpage li{
+    margin-top:5px;
+    margin-bottom:5px;
 }
